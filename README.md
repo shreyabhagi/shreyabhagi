@@ -1,16 +1,43 @@
-## Hi there 👋
+# Shreya Bhagi
 
-<!--
-**shreyabhagi/shreyabhagi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+M.S. Bioinformatics student (thesis track) at Loyola University Chicago, graduating May 2027. I build pipelines that turn raw sequencing data into taxonomic and statistical results, mostly for metagenomics, and I build retrieval-augmented generation (RAG) applications in Python.
 
-Here are some ideas to get you started:
+## Current research
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**Sedimentary ancient DNA from Enos Lake** · M.S. thesis, Burns Lab
+
+I analyze shotgun sedimentary ancient DNA (sedaDNA) from Holocene lake sediment cores to study how microbial communities changed alongside climate over more than 10,000 years.
+
+- Quality control and taxonomic classification with FastQC, MultiQC, Cutadapt, Kraken2 and Bracken, run with SLURM on Loyola's HPC cluster
+- Abundance filtering, paleoclimate reconstruction (pastclim, terra, CHELSA-TraCE21k) and figures in R
+- A Python workflow that extracts and summarizes eukaryotic records from Kraken2 output
+
+The thesis is in progress, so its code and results are not public yet.
+
+## Projects
+
+| Project | What it is | Tools |
+|---|---|---|
+| [Prostate cancer risk modeling](https://github.com/shreyabhagi/ProstateCancerRisk_STAT408) | Regression analysis of a simulated dataset of 1,000 patient records: multiple linear and ordinal logistic regression, model diagnostics and AIC-based model selection, written as a reproducible Quarto report. | R, Quarto, ggplot2 |
+| [*Lactobacillus* detection in gut metagenomes](https://github.com/shreyabhagi/L.mulieris_L.jensenii_Project) | Four-person team project in the Putonti Lab screening public SRA metagenomes for *L. mulieris* and *L. jensenii* with Sylph. This is my fork of the team repository; my contributions included a wrapper script with logging and per-sample error handling, and the reference-genome documentation. | Python, Sylph, SRA Toolkit |
+
+## Other work
+
+- **Generative AI (MICROeAI, GenAI Developer Intern, 2026 to present):** built a RAG chatbot in Python for querying pharmaceutical and clinical-trial documents, with document ingestion, ChromaDB vector search, local LLMs through Ollama, a Streamlit interface, citation checks and a 35-test regression suite. The code is proprietary.
+- **16S microbiome study (Burns Lab, 2024 to 2025):** compared eight commercial DNA extraction methods using DADA2 and phyloseq in R. Presented as a poster at Loyola's 2025 Undergraduate Research & Engagement Symposium.
+- **Preprint:** co-author on a [bioRxiv preprint](https://doi.org/10.1101/2025.07.18.664790) on FOXA1 and SOX2 in therapy-resistant prostate cancer (2025), from wet-lab work engineering the FOXA1 R219C mutation.
+
+## Skills
+
+- **Languages:** Python, R, Bash
+- **Metagenomics:** Kraken2, Bracken, DADA2, phyloseq, Sylph, FastQC, MultiQC, Cutadapt
+- **Statistics and visualization:** regression modeling, alpha and beta diversity, ggplot2, tidyverse, Quarto
+- **Computing:** Linux, SLURM, HPC, Git
+- **Generative AI:** RAG, Ollama, ChromaDB, Streamlit
+- **Learning now:** SQL
+
+## Contact
+
+Open to bioinformatics, computational biology, data science and generative AI internships and full-time roles for 2027.
+
+[LinkedIn](https://www.linkedin.com/in/shreyabhagi)
