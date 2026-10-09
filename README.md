@@ -18,12 +18,12 @@ The thesis is in progress, so its code and results are not public yet.
 
 | Project | What it is | Tools |
 |---|---|---|
+| [Compliance Evidence Assistant](https://github.com/shreyabhagi/compliance-evidence-assistant) | RAG application I built as a GenAI Developer Intern at MICROeAI, shared with the company's permission. It answers questions over uploaded compliance and clinical documents with inline citations, runs local LLMs through Ollama with ChromaDB retrieval, checks each answer against its sources, and has an automated test suite. | Python, Streamlit, Ollama, ChromaDB |
 | [Prostate cancer risk modeling](https://github.com/shreyabhagi/ProstateCancerRisk_STAT408) | Regression analysis of a simulated dataset of 1,000 patient records: multiple linear and ordinal logistic regression, model diagnostics and AIC-based model selection, written as a reproducible Quarto report. | R, Quarto, ggplot2 |
 | [*Lactobacillus* detection in gut metagenomes](https://github.com/shreyabhagi/L.mulieris_L.jensenii_Project) | Four-person team project in the Putonti Lab screening public SRA metagenomes for *L. mulieris* and *L. jensenii* with Sylph. This is my fork of the team repository; my contributions included a wrapper script with logging and per-sample error handling, and the reference-genome documentation. | Python, Sylph, SRA Toolkit |
 
 ## Other work
 
-- **Generative AI (MICROeAI, GenAI Developer Intern, 2026 to present):** built a RAG chatbot in Python for querying pharmaceutical and clinical-trial documents, with document ingestion, ChromaDB vector search, local LLMs through Ollama, a Streamlit interface, citation checks and a 35-test regression suite. The code is proprietary.
 - **16S microbiome study (Burns Lab, 2024 to 2025):** compared eight commercial DNA extraction methods using DADA2 and phyloseq in R. Presented as a poster at Loyola's 2025 Undergraduate Research & Engagement Symposium.
 - **Preprint:** co-author on a [bioRxiv preprint](https://doi.org/10.1101/2025.07.18.664790) on FOXA1 and SOX2 in therapy-resistant prostate cancer (2025), from wet-lab work engineering the FOXA1 R219C mutation.
 
